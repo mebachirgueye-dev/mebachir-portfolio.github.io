@@ -463,6 +463,78 @@ header nav ul a:hover::after {
     font-size: 14px;
 }
 
+#projet {
+    padding: 90px 6%;
+    width: 100%;
+    height: auto;
+    background-color: #ffebe2;
+}
+
+#projet h1  {
+    color: #1d1d1d;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 60px 0; 
+}
+
+#projet .real {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#projet .real .r {
+    text-align: center;
+    border-radius: 20px;
+    background-color:  #ffffff;
+    border-bottom: 7px solid #ff4800;
+    box-shadow: 0 0 10px #1d1d1d;
+    padding-bottom: 20px;
+    transition: .3s all;
+}
+
+#projet .real .r:hover {
+    transform: translateY(-20px);
+}
+
+#projet .real .r h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+#projet .real .r span {
+    color: #ff4800;
+}
+
+#projet .real .r img {
+    width: 100%;
+    height: auto;
+    max-width: 590px;
+    padding: 20px;
+}
+
+#projet .real .r a {
+    color: #ffffff;
+    background-color: #ff4800;
+    border-radius: 5px;
+    border: 2px solid #ff4800;
+    box-shadow: 0 0 8px #ff4800;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 5px;
+    transition: .3s ease-in-out;
+}
+
+#projet .real .r a:hover {
+    color: #ff4800;
+    background-color: #ffffff;
+    border: 2px solid #ff4800;
+    box-shadow: none;
+}
+
 #Qualité {
     padding: 90px 6%;
     width: 100%;
