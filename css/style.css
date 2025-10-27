@@ -492,6 +492,7 @@ header nav ul a:hover::after {
     box-shadow: 0 0 10px #1d1d1d;
     padding-bottom: 20px;
     transition: .3s all;
+    margin-bottom: 20px;
 }
 
 #projet .real .r:hover {
