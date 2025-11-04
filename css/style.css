@@ -324,7 +324,6 @@ header nav ul a:hover::after {
 #Compétences .comp {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
